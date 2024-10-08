@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODE-ZONE</title>   
+</head>
+  <style>
+    body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+    justify-content: center; /* Centra el contenido verticalmente */
+    height: 60vh; /* Hace que el body ocupe toda la altura de la ventana */
+    margin: 0; /* Elimina el margen por defecto */
+    background: #373B44;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+.container {
+    display: flex; /* Usamos flexbox para alinear los cuadrados */
+    justify-content: space-around; /* Espaciado entre los cuadrados */
+    align-items: center; /* Centra los cuadrados verticalmente */
+    height: 100vh; /* Altura de la ventana del navegador */
+}
+
+.cuadrado {
+    width: 100px; /* Ancho del cuadrado */
+    height: 100px; /* Alto del cuadrado */
+    display: flex; /* Permite centrar el texto dentro del cuadrado */
+    justify-content: center; /* Centra el texto horizontalmente */
+    align-items: center; /* Centra el texto verticalmente */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Texto en negrita */
+    border-radius: 10px; /* Bordes redondeados */
+    margin: 10px; /* Margen alrededor de cada cuadrado para dar espacio */
+}
+
+.html {
+    background-color: #E44D26; /* Color del cuadrado HTML */
+}
+.css {
+    background-color: #1572B6; /* Color del cuadrado CSS */
+}
+.js {
+    background-color: #F7DF1E; /* Color del cuadrado JavaScript */
+    color: black; /* Color del texto para JavaScript */
+}
+.php {
+    background-color: #4F5B93; /* Color del cuadrado PHP */
+}
+.java {
+    background-color: #007396; /* Color del cuadrado Java */
+}
+  </style>
+<body>
+    <h1>"Estudio de programación web"</h1>
+    <img src="https://cdn-icons-png.flaticon.com/512/2728/2728262.png" alt="logo CODE-ZONE" width="100">
+    <h2>En esta página podrás desarrollar tus habilidades de programación y aprender los lenguajes más fáciles del mundo</h2>
+    <hr style="border: none; height: 6px; background-color: black; width: 100%; margin: 20px auto;"> 
+
+    <div class="container">
+        <a href="Naranja.html" class="cuadrado html">HTML</a>
+        <a href="css.html" class="cuadrado css">CSS</a>
+        <a href="js.html" class="cuadrado js">JavaScript</a>
+        <a href="php.html" class="cuadrado php">PHP</a>
+        <a href="java.html" class="cuadrado java">Java</a>
+    </div>
+</body>
+</html>
